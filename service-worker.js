@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/ContactsReact_Context/precache-manifest.ec9810b254f1aec012f7790a03ec315b.js"
+  "/ContactsReact_Context/precache-manifest.759c6a3d4b04a02697ddf2e7b614f905.js"
 );
 
 self.addEventListener('message', (event) => {
