@@ -5,13 +5,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "./../context";
 import AddContact from "./AddContact";
 import EditContacts from "./EditContacts";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./About";
 import NotFound from "./NotFound";
 function App() {
   return (
     <Provider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Header />
           <div className="container">
